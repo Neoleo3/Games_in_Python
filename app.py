@@ -1,6 +1,5 @@
 import streamlit as st
-from November2024_C3_S10_PracticeSolution import Guessing_Game,Riddle_puzzle,Arithmetic_puzzle,General_Knowledge,Rock_paper_scissor,Rock_Paper_scissor_game,
-main1,main2,main3,main4,main5,main6
+from November2024_C3_S10_PracticeSolution import Guessing_Game,Riddle_puzzle,Arithmetic_puzzle,General_Knowledge,Rock_paper_scissor,Rock_Paper_scissor_game,main1,main2,main3,main4,main5,main6
 
 st.title('Welcome to a Catalog of games, fellow User!')
 if st.button('Click here'):
