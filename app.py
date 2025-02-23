@@ -29,5 +29,8 @@ def main():
                 main6()
             else:
                 print('Thank you! GoodBye')
-                break    
+                break 
+
+if st.button('Play Game'):
+    main()   
 
