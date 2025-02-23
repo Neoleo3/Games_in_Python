@@ -1,1 +1,6 @@
-These Games in Python. Play it by opening in Jupyter Notebook
+## Project
+In this personal project, I have created a catalog of games for an employee at a company who wants play some games. Here, there are 6 games for an employee to chooose from. He can play with a friend or with the computer. 
+## Methodology
+OOPS classes are created for each individual games in Jupyter Notebook.
+Web development on the games is done using SteamLit module in Visual Studio Code.
+Deployement using StreamLit onloine services.
