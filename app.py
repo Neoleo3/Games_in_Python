@@ -2,6 +2,7 @@ import streamlit as st
 from November2024_C3_S10_PracticeSolution import Guessing_Game,Riddle_puzzle,Arithmetic_puzzle,General_Knowledge,Rock_paper_scissor,Rock_Paper_scissor_game,main1,main2,main3,main4,main5,main6
 
 st.header('Welcome to a Catalog of games, fellow User!')
+main()
 def main():
     st.write('Pick a game of your choice and play on!')
     valid_choices = [1,2,3,4,5,6,7]
