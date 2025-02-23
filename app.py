@@ -13,22 +13,22 @@ if st.button('Click here'):
                 if inpt_of_the_user not in valid_choices:
                     print('You have entered the wrong option')
                     continue
-                except ValueError as e:
-                    print(f'{e}')
-                    else:
-                        if inpt_of_the_user==1:
-                            main1()
-                        elif inpt_of_the_user==2:
-                            main2()
-                        elif inpt_of_the_user==3:
-                            main3()
-                        elif inpt_of_the_user==4:
-                            main4()
-                        elif inpt_of_the_user==5:
-                            main5()
-                        elif inpt_of_the_user==6:
-                            main6()
-                            else:
-                                print('Thank you! GoodBye')
-                                break    
+            except ValueError as e:
+                print(f'{e}')
+            else:
+                if inpt_of_the_user==1:
+                    main1()
+                elif inpt_of_the_user==2:
+                    main2()
+                elif inpt_of_the_user==3:
+                    main3()
+                elif inpt_of_the_user==4:
+                    main4()
+                elif inpt_of_the_user==5:
+                    main5()
+                elif inpt_of_the_user==6:
+                    main6()
+                else:
+                    print('Thank you! GoodBye')
+                    break    
 
