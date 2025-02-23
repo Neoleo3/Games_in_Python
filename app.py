@@ -8,7 +8,7 @@ def main():
     end_game =0
     while end_game==0:
         try:
-            user_num=st.number_input('Game code: 1 is Riddle Puzzle, 2 is Arithmatic Puzzle, 3 is General Knowledge Quiz Game, 4 is Rock Paper Scissor with computer,5 is a Rock Paper Scissor game with a User,6 is Word Guessing game,7 to exit the game',min_value=1,max_value=7)
+            user_num=st.number_input('Game code: 1 is Riddle Puzzle, 2 is Arithmatic Puzzle, 3 is General Knowledge Quiz Game, 4 is Rock Paper Scissor with computer,5 is a Rock Paper Scissor game with a User,6 is Word Guessing game,7 to exit the game',min_value=0,max_value=7)
             if user_num not in valid_choices:
                 print('You have entered the wrong option')
                 continue
@@ -32,5 +32,5 @@ def main():
                 break 
 
 if st.button('Play Game'):
-    main()   
+    main() 
 
