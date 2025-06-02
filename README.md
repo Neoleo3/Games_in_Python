@@ -3,4 +3,4 @@ In this personal project, I have created a catalog of games for an employee at a
 ## Methodology
 OOPS classes are created for each individual games in Jupyter Notebook.
 Web development on the games is done using SteamLit module in Visual Studio Code.
-Deployement using StreamLit onloine services.
+Deployement using StreamLit online services.
