@@ -5,4 +5,4 @@ OOPS classes are created for each individual games in Jupyter Notebook.
 Web development on the games is done using SteamLit module in Visual Studio Code.
 Deployement using StreamLit online services.
 ## Play game 
-## https://gamesinpython-4gfm9tqzw8pkmlkhyksme4.streamlit.app/
+## https://gamesinpython-ensntaxdbd97icvz9kaquy.streamlit.app/
